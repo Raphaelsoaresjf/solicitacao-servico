@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Nunito, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #FFF;
+  background-image: url("../../../public/assets/camuflagem.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrap-login {
+  width: 390px;
+  background-color: #FFF;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 55px 33px 55px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.txt1 {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.5;
+  padding-right: 5px;
+}
+
+.txt2 {
+  font-size: 14px;
+  color: #0a5517;
+  line-height: 1.5;
+  text-decoration: none;
+}

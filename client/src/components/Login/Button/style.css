@@ -1,0 +1,29 @@
+.container-login-form-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+  }
+  
+  .login-form-btn {
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #19882c;
+    background: -webkit-linear-gradient(to right, #19882c, #0a5517);
+    background: -o-linear-gradient(to right, #19882c, #0a5517);
+    background: -moz-linear-gradient(to right, #19882c, #0a5517);
+    background: linear-gradient(to right, #19882c, #0a5517);
+  }
+
+  .login-form-btn:hover {
+    cursor: pointer;
+  }
