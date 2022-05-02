@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "camada de servicos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solicitacao-servico/server.git"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "Raphael Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solicitacao-servico/server/issues"
+  },
+  "homepage": "https://github.com/solicitacao-servico/server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
