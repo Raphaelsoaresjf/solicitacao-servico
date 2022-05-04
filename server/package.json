@@ -4,6 +4,8 @@
   "description": "camada de servicos",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "test start"
   },
   "repository": {
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/solicitacao-servico/server#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "mysql": "^2.18.1",
