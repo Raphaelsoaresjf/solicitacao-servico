@@ -18,11 +18,16 @@ const LoginForm = () => {
                 password: values.password,
             }, {
                 headers: {'Content-Type': 'application/json'}
-              }).then(function() {
-				window.location.href = "/home";
-              }).catch(function(error) {
-                alert(error.data.msg);
-              })
+			}).then(function(result) {
+				if(result.data.msg === "true"){
+					window.location.href = "/home";
+				}else{
+					alert("Usuário ou senha inválidos");
+				}
+				console.log(result.data)
+			}).catch(function(error) {
+				alert(error.data.msg);
+			})
         }
     };
 

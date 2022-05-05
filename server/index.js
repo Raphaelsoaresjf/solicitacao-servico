@@ -45,9 +45,9 @@ app.post("/", (req, res) => {
         if(result.length > 0) {
             bcrypt.compare(password, result[0].password).then(function(result) {
                 if(result){
-                    res.send({msg: "Usuário logado!"});
+                    res.send({msg: "true"});
                 }else{
-                    res.send({msg: "Usuário não encontrado!"});
+                    res.send({msg: "false"});
                 }
             }); 
         }else{

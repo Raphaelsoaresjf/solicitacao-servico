@@ -1,7 +1,18 @@
+import StepBar from '../../components/Home/StepBar';
+import '../../global/style.css';
+
 function Home() {
 
   return (
-   <h1>Home</h1>
+    <div className="container">
+    <div className="container-login">
+      <div className="wrap-login">
+        <h1>Olá </h1>
+        <h1>Raphael Soares</h1>
+        <StepBar/>
+      </div>
+    </div>
+  </div>
   );
 }
 
