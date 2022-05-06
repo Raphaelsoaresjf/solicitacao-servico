@@ -1,7 +1,7 @@
-import LoginForm from "../../components/Login/Form";
+import LoginForm from "../../components/Login/LoginForm";
 import "../../global/style.css";
 
-function Login() {
+const Login = () => {
 
   return (
     <div className="container">

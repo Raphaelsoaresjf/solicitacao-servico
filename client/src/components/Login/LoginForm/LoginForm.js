@@ -74,7 +74,7 @@ const LoginForm = () => {
 					</a>
 				</div>
 				<div className="text-center">
-					<a className="txt2" href="www.google.com.br">
+					<a className="txt2" href="/forgotten-password">
 							Esqueci minha senha
 					</a>
 				</div>

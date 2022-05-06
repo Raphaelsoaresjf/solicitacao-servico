@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Provider from './components/Login/Store/Provider';
+import ForgottenPassword from './pages/ForgottenPassword';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register/';
@@ -16,7 +17,8 @@ root.render(
 				{/* <Route path='/home' element={<PrivateRoute/>} /> */}
 				<Route path='/home' element={<Home/>} />
 				<Route path='/register' element={<Register/>} />
+				<Route path='/forgotten-password' element={<ForgottenPassword/>} />
 			</Routes>
 		</Provider>
-	</Router>,
+	</Router>
 );
